@@ -1,15 +1,20 @@
-# Remix compiler artifacts
-**/artifacts/
-**/artifacts/**
-
-# Remix plugin state folders
-deps/
-states/
-
-# Debug info
-*.dbg.json
-*.tsbuildinfo
-
-# Optional
+# Environment (privatni podaci)
 .env
-.env.local
+
+# Foundry build output
+out/
+cache/
+
+# Dependencies
+node_modules/
+lib/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code local
+.vscode/
