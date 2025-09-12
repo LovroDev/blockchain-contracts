@@ -37,5 +37,5 @@ Currently learning and experimenting with **ERC20 & ERC721**, dApps, and securit
 
 ---
 
-📫 Reach me on [Twitter] https://x.com/J0BSdev or check my [GitHub projects].  
-forge script script/DeployJobsNFT.s.sol --rpc-url $SEPOLIA_RPC --private-key $PRIVATE_KEY --broadcast
+📫 Reach me on [Twitter] https://x.com/J0BSdev or check my GitHub projects https://github.com/LovroDev/blockchain-contracts/tree/main/src .  
+
