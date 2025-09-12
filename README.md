@@ -18,7 +18,7 @@ Currently learning and experimenting with **ERC20 & ERC721**, dApps, and securit
 ---
 
 ## 📂 Projects
-### [JobsToken (ERC20)]https://github.com/LovroDev/blockchain-contracts/blob/main/src/tokens/erc20/JobsToken.sol
+### [JobsToken (ERC20)] https://github.com/LovroDev/blockchain-contracts/blob/main/src/tokens/erc20/JobsToken.sol
 - Features: mint, burn, transfer, approve.  
 - Full test suite in Foundry.  
 - Deployed on Sepolia & verified on Etherscan.  
