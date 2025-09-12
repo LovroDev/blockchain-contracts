@@ -1,24 +1,41 @@
-# Blockchain Contracts
+ Hi, I'm Lovro
 
-📌 Showcase of my Solidity smart contracts built with Foundry and OpenZeppelin.
+Junior Solidity Developer | Web3 Builder  
+
+🚀 Focused on building secure and scalable smart contracts using **Solidity** and **Foundry**.  
+Currently learning and experimenting with **ERC20 & ERC721**, dApps, and security best practices.  
+
+
+
+🛠 Skills
+- **Solidity**: ERC20 & ERC721 (mint, burn, pause, cap, URI storage)  
+- **Frameworks**: Foundry (forge build, forge test, forge script, deploy with broadcast)  
+- **Libraries**: OpenZeppelin (ERC20, ERC721 extensions, Ownable, Pausable, Burnable, Capped)  
+- **Testing**: Unit testing, fuzz testing, revert checks with Foundry  
+- **Blockchain Tools**: Etherscan verification, Sepolia testnet, Metamask  
+- **Version Control**: Git & GitHub  
 
 ---
 
-## 📂 Contracts
-- **ERC20 – JobsToken**  
-  Basic fungible token with mint, pause, and cap functionality.  
+## 📂 Projects
+### [JobsToken (ERC20)](https://github.com/tvoj-github-link/JobsToken)
+- Features: mint, burn, transfer, approve.  
+- Full test suite in Foundry.  
+- Deployed on Sepolia & verified on Etherscan.  
 
-- **ERC721 – JobsNFT**  
-  NFT contract with metadata storage.  
-
-- **Advanced ERC721 – JobsNFTBurnable**  
-  NFT contract with burn functionality.  
+### [JobsNFT (ERC721)](https://github.com/tvoj-github-link/JobsNFT)
+- Features: metadata URI storage, mint.  
+- Built with OpenZeppelin + Foundry.  
+- Deployed & tested on Sepolia testnet.  
 
 ---
 
-## 🚀 Deployment
-Contracts are deployed and tested on **Sepolia testnet** using **Foundry**.
+## 🎯 Goals
+- Build production-ready ERC20/721 contracts.  
+- Learn advanced security patterns.  
+- Contribute to real-world Web3 projects.  
 
-Example deployment command:
-```bash
+---
+
+📫 Reach me on [Twitter] https://x.com/J0BSdev or check my [GitHub projects].  
 forge script script/DeployJobsNFT.s.sol --rpc-url $SEPOLIA_RPC --private-key $PRIVATE_KEY --broadcast
