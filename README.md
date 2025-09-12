@@ -23,7 +23,7 @@ Currently learning and experimenting with **ERC20 & ERC721**, dApps, and securit
 - Full test suite in Foundry.  
 - Deployed on Sepolia & verified on Etherscan.  
 
-### [JobsNFT (ERC721)](https://github.com/tvoj-github-link/JobsNFT)
+### [JobsNFT (ERC721)] https://github.com/LovroDev/blockchain-contracts/blob/main/src/tokens/erc721/JobsNFT.sol
 - Features: metadata URI storage, mint.  
 - Built with OpenZeppelin + Foundry.  
 - Deployed & tested on Sepolia testnet.  
