@@ -37,7 +37,7 @@ contract JobsTokenFullTest is Test {
     function testOnlyOwnerCanMint() public {
         // non-owner mint -> revert
         vm.prank(alice);
-        vm.expectRevert(); // dovoljno je generalno jer verzije OZ v5/v4 imaju druge poruke
+        vm.expectRevert(); // 
         token.mint(alice, 100 ether);
 
         // owner mint -> OK
@@ -64,12 +64,12 @@ contract JobsTokenFullTest is Test {
         token.pause();
 
         vm.prank(owner);
-        vm.expectRevert(); // OZ v5 -> EnforcedPause(), ali generički je ok
+        vm.expectRevert(); // 
         token.transfer(alice, 1 ether);
 
         token.unpause();
 
-        // sad prolazi
+       
         bool ok = token.transfer(alice, 1 ether);
         assertTrue(ok);
         assertEq(token.balanceOf(alice), 1 ether);
