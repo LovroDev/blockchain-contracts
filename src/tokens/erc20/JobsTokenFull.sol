@@ -54,7 +54,7 @@ contract JobsTokenFull is
     }
 
     
-    
+
     function _update(
         address from,
         address to,
