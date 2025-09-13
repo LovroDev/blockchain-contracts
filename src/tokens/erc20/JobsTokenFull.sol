@@ -32,13 +32,13 @@ contract JobsTokenFull is
         ERC20Permit(name_)
         Ownable(msg.sender)
     {
-        // Mint početne tokene vlasniku (ako želiš, možeš staviti 0)
+        
         if (initialSupply_ > 0) {
             _mint(msg.sender, initialSupply_);
         }
     }
 
-    /* -------------------- Admin funkcije -------------------- */
+   
 
     function pause() external onlyOwner {
         _pause();
@@ -48,13 +48,13 @@ contract JobsTokenFull is
         _unpause();
     }
 
-    /// @notice Mint dodatnih tokena (poštuje cap). Blokirano kada je pauziran.
+
     function mint(address to, uint256 amount) external onlyOwner {
         _mint(to, amount);
     }
 
-    /* -------------------- OZ v5 hook -------------------- */
-    /// @dev U v5 cap i pause se provode u _update.
+    
+    
     function _update(
         address from,
         address to,
