@@ -21,8 +21,6 @@ contract JobsTokenFullTest is Test {
         token = new JobsTokenFull(NAME, SYMBOL, CAP, INITIAL_SUPPLY);
     }
 
-    /* --------------------------- Inicijalne vrijednosti --------------------------- */
-
     function testInitialConfig() public {
         assertEq(token.name(), NAME);
         assertEq(token.symbol(), SYMBOL);
@@ -34,7 +32,7 @@ contract JobsTokenFullTest is Test {
         assertEq(token.cap(), CAP);
     }
 
-    /* ---------------------------------- Mint ---------------------------------- */
+    
 
     function testOnlyOwnerCanMint() public {
         // non-owner mint -> revert
@@ -59,7 +57,7 @@ contract JobsTokenFullTest is Test {
         token.mint(bob, 1);
     }
 
-    /* ------------------------------ Pause/Unpause ------------------------------ */
+    
 
     function testPauseBlocksTransfersAndUnpauseAllows() public {
         // owner pausable
@@ -77,7 +75,7 @@ contract JobsTokenFullTest is Test {
         assertEq(token.balanceOf(alice), 1 ether);
     }
 
-    /* ---------------------------------- Burn ---------------------------------- */
+    
 
     function testBurnReducesSupply() public {
         uint256 beforeSupply = token.totalSupply();
