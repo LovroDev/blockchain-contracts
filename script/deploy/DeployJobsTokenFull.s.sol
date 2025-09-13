@@ -11,7 +11,7 @@ contract DeployJobsTokenFullScript is Script {
 
         vm.startBroadcast(pk);
 
-        // Postavi svoje vrijednosti
+       
         string memory NAME = "JobsToken";
         string memory SYMBOL = "JBT";
         uint256 CAP = 10_000_000 ether;        // hard cap 10M
